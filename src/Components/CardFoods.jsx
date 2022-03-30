@@ -28,11 +28,6 @@ function CardFoods(props) {
 CardFoods.propTypes = {
   data: PropTypes.objectOf(PropTypes.string).isRequired,
   index: PropTypes.number.isRequired,
-  // shareIcon: PropTypes.string.isRequired,
-  // SavFavRecipes: PropTypes.func.isRequired,
-  // Icon: PropTypes.string.isRequired,
-  // clipURL: PropTypes.func.isRequired,
-  // copy: PropTypes.bool.isRequired,
 };
 
 export default CardFoods;
